@@ -1,0 +1,32 @@
+1. the libraries required to run the project including the full version of each library
+
+numpy==2.2.6
+opencv-python==4.12.0.88
+matplotlib==3.10.7
+os 
+
+2.  how to run each task and where to look for the output file.
+
+NOTES:  - Only the Qwirkle Connect variant is solved!
+        - The code takes about 30 minutes to run!
+        - The code was developed on a Windows 11 machine!
+
+The entire solution is implemented in the Jupyter Notebook: 'Tema_1_QwirkleConnect.ipynb'.
+The last cell of the notebook is the entry point in order to run the code.
+The code requires a folder named 'templates', in the same directory as the notebook.
+This folder contains exactly 7 files:
+- '1.jpg' through '6.jpg' (game pieces)
+- 'bonus_2.jpg' (bonus square template)
+
+Task 1:
+
+Script:     Tema_1_QwirkleConnect.ipynb
+Function:   run_game(game_id, folder_in, folder_out)
+Parameters:
+    game_id:    integer representing the ID (ex: 1, 2, 3...)
+    folder_in:  string path to the folder with the input images(ex: 'antrenare'/'fake_test')
+    folder_out: string path to the folder where the txt files will be saved after running the code
+
+The input folder is currently listed as:     'antrenare'
+The output folder is currently listed as:    '461_Lungu_Bogdan_Cosmin'  (it will be created if it doesn't exist)
+Check the last jupyter cell!
