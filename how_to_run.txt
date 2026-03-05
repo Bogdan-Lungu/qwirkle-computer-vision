@@ -11,7 +11,7 @@ NOTES:  - Only the Qwirkle Connect variant is solved!
         - The code takes about 30 minutes to run!
         - The code was developed on a Windows 11 machine!
 
-The entire solution is implemented in the Jupyter Notebook: 'Tema_1_QwirkleConnect.ipynb'.
+The entire solution is implemented in the Jupyter Notebook: 'main.ipynb'.
 The last cell of the notebook is the entry point in order to run the code.
 The code requires a folder named 'templates', in the same directory as the notebook.
 This folder contains exactly 7 files:
@@ -20,7 +20,7 @@ This folder contains exactly 7 files:
 
 Task 1:
 
-Script:     Tema_1_QwirkleConnect.ipynb
+Script:     main.ipynb
 Function:   run_game(game_id, folder_in, folder_out)
 Parameters:
     game_id:    integer representing the ID (ex: 1, 2, 3...)
